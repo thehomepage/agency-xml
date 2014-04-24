@@ -1,250 +1,241 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <propertyList date="2014-01-01-12:30:00">
 
-	<!--
-		 New / Updated / Existing Franchise
-		 All fields are optional except for franchiseID and logo
-	 -->
-	<franchise status="current" modTime="2014-01-01-12:30:00">
-		<franchiseID>12345</franchiseID>
-		<name>Franchise Name</name>
-		<url>http://some-franchise.com.au</url>
+ <!--
+   New / Updated / Existing Franchise
+   All fields are optional except for franchiseID and logo
+  -->
+ <franchise status="current" modTime="2014-01-01-12:30:00">
+  <franchiseID>12345</franchiseID>
+  <name>Franchise Name</name>
+  <url>http://some-franchise.com.au</url>
 
-		<twitterURL>http://twitter.com/SomeUser</twitterURL>
+  <twitterURL>http://twitter.com/SomeUser</twitterURL>
 
-		<facebookURL>http://www.facebook.com/pages/Some_Domain_Facebook_Page</facebookURL>
+  <facebookURL>http://www.facebook.com/pages/Some_Domain_Facebook_Page</facebookURL>
 
-		<linkedInURL>http://au.linkedin.com/pub/primary-lister/37/599/39a</linkedInURL>
+  <linkedInURL>http://au.linkedin.com/pub/primary-lister/37/599/39a</linkedInURL>
 
-		<googleURL>http://plus.google.com/+SomePage</googleURL>
+  <googleURL>http://plus.google.com/+SomePage</googleURL>
 
-		<!-- Franchise Video -->
-		<videoLink href="http://youtube.com/watch?v=kfVsfOSbJY0" />
+  <!-- Franchise Video -->
+  <videoLink href="http://youtube.com/watch?v=kfVsfOSbJY0" />
 
-		<!-- About the franchise, up to 65535 characters long -->
-		<description>About this agency</description>
+  <!-- About the franchise, up to 65535 characters long -->
+  <description>About this agency</description>
 
-		<branding>
-			<!--
-				 The franchise logo in png format 320px x 60px. If an agency under
-				 this franchise does not have a logo specified, this logo will be used
-			 -->
-			<logo modTime="2014-01-01-12:30:00" url="http://cdn.thehomepage.com.au/objects/agency/3/acme-agency-f59e665e-fd7d-4dea-a11d-778c9a4da9d5.png" format="png" />
+  <branding>
+   <!--
+     The franchise logo in png format 320px x 60px. If an agency under
+     this franchise does not have a logo specified, this logo will be used
+    -->
+   <logo modTime="2014-01-01-12:30:00" url="http://cdn.thehomepage.com.au/objects/agency/3/acme-agency-f59e665e-fd7d-4dea-a11d-778c9a4da9d5.png" format="png" />
 
-			<colors>
-				<foreground>#f2f2f2</foreground>
-				<background>#010101</background>
-			</colors>
+   <colors>
+    <foreground>#f2f2f2</foreground>
+    <background>#010101</background>
+   </colors>
 
-		</branding>
+  </branding>
 
-		<objects>
-			<!-- Documents the franchise would like linked, eg, weekly property guide -->
-			<document id="1" modTime="2007-01-01-12:00:00" title="Weekly Property Guide" url="http://thehomepage.com.au/property-guide.pdf" format="pdf" />
-		</objects>
+  <objects>
+   <!-- Documents the franchise would like linked, eg, weekly property guide -->
+   <document id="1" modTime="2007-01-01-12:00:00" title="Weekly Property Guide" url="http://thehomepage.com.au/property-guide.pdf" format="pdf" />
+  </objects>
 
-		<images>
-			<img id="m" modTime="2014-01-01-12:30:00" url="http://thehomepage.com.au/image1.jpg" format="jpg" />
-		</images>
-	</franchise>
+  <images>
+   <img id="m" modTime="2014-01-01-12:30:00" url="http://thehomepage.com.au/image1.jpg" format="jpg" />
+  </images>
+ </franchise>
 
-	<!--
-		 Remove a Franchise
-		 i.e They have stopped trading as this franchise.
-	 -->
-	<franchise status="withdrawn" modTime="2014-01-01-12:30:00">
-		<franchiseID>9999</franchiseID>
-	</franchise>
+ <!--
+   Remove a Franchise
+   i.e They have stopped trading as this franchise.
+  -->
+ <franchise status="withdrawn" modTime="2014-01-01-12:30:00">
+  <franchiseID>9999</franchiseID>
+ </franchise>
 
-	<!--
-		New / Updated / Existing Agency
-		All fields are optional except for the agentID, name, address and  email.
-	-->
-	<agency status="current" modTime="2014-01-01-12:30:00">
+ <!--
+  New / Updated / Existing Agency
+  All fields are optional except for the agentID, name, address and  email.
+ -->
+ <agency status="current" modTime="2014-01-01-12:30:00">
 
-		<!-- Existing agentID used with property listings -->
-		<agentID>9999</agentID>
+  <!-- Existing agentID used with property listings -->
+  <agentID>9999</agentID>
 
-		<!-- If this agency is part of a franchise -->
-		<franchiseID>12345</franchiseID>
+  <!-- If this agency is part of a franchise -->
+  <franchiseID>12345</franchiseID>
 
-		<!-- Agency Address -->
-		<address>
-			<subNumber>2</subNumber>
-			<streetNumber>39</streetNumber>
-			<street>Main Road</street>
-			<suburb>RICHMOND</suburb>
-			<state>vic</state>
-			<postcode>3121</postcode>
-			<country>AUS</country>
-		</address>
+  <!-- Agency Address -->
+  <address>
+   <subNumber>2</subNumber>
+   <streetNumber>39</streetNumber>
+   <street>Main Road</street>
+   <suburb>RICHMOND</suburb>
+   <state>vic</state>
+   <postcode>3121</postcode>
+   <country>AUS</country>
+  </address>
 
-		<municipality>Yarra</municipality>
+  <municipality>Yarra</municipality>
 
-		<!-- Optional Geo Location for this office -->
-		<geolocation>
-			<latitude>-37.8173986</latitude>
-			<longitude>144.9380618</longitude>
-		</geolocation>
+  <!-- Optional Geo Location for this office -->
+  <geolocation>
+   <latitude>-37.8173986</latitude>
+   <longitude>144.9380618</longitude>
+  </geolocation>
 
-		<name>Business Name</name>
+  <name>Business Name</name>
 
-		<telephone type="BH">05 1234 5678</telephone>
+  <telephone type="BH">05 1234 5678</telephone>
 
-		<email>pl@somedomain.com.au</email>
+  <email>pl@somedomain.com.au</email>
 
-		<url>http://some-agency.com.au</url>
+  <url>http://some-agency.com.au</url>
 
-		<twitterURL>http://twitter.com/SomeUser</twitterURL>
+  <twitterURL>http://twitter.com/SomeUser</twitterURL>
 
-		<facebookURL>http://www.facebook.com/pages/Some_Domain_Facebook_Page</facebookURL>
+  <facebookURL>http://www.facebook.com/pages/Some_Domain_Facebook_Page</facebookURL>
 
-		<linkedInURL>http://au.linkedin.com/pub/primary-lister/37/599/39a</linkedInURL>
+  <linkedInURL>http://au.linkedin.com/pub/primary-lister/37/599/39a</linkedInURL>
 
-		<googleURL>http://plus.google.com/+SomePage</googleURL>
+  <googleURL>http://plus.google.com/+SomePage</googleURL>
 
-		<!-- Agency Profile Video -->
-		<videoLink href="http://youtube.com/watch?v=kfVsfOSbJY0" />
+  <!-- Agency Profile Video -->
+  <videoLink href="http://youtube.com/watch?v=kfVsfOSbJY0" />
 
-		<!-- About the agency, up to 65535 characters long -->
-		<description>About this agency</description>
+  <!-- About the agency, up to 65535 characters long -->
+  <description>About this agency</description>
 
-		<branding>
-			<!-- The agency's logo in png format in a 16:3 ratio (or 320px x 60px) -->
-			<logo modTime="2014-01-01-12:30:00" url="http://cdn.thehomepage.com.au/objects/agency/3/acme-agency-f59e665e-fd7d-4dea-a11d-778c9a4da9d5.png" format="png" />
+  <branding>
+   <!-- The agency's logo in png format in a 16:3 ratio (or 320px x 60px) -->
+   <logo modTime="2014-01-01-12:30:00" url="http://cdn.thehomepage.com.au/objects/agency/3/acme-agency-f59e665e-fd7d-4dea-a11d-778c9a4da9d5.png" format="png" />
 
-			<colors>
-				<foreground>#f2f2f2</foreground>
-				<background>#010101</background>
-			</colors>
+   <colors>
+    <foreground>#f2f2f2</foreground>
+    <background>#010101</background>
+   </colors>
 
-		</branding>
+  </branding>
 
-		<objects>
-			<!-- Documents the agency would like linked, eg, weekly property guide -->
-			<document id="1" modTime="2007-01-01-12:00:00" title="Weekly Property Guide" url="http://thehomepage.com.au/property-guide.pdf" format="pdf" />
-		</objects>
+  <objects>
+   <!-- Documents the agency would like linked, eg, weekly property guide -->
+   <document id="1" modTime="2007-01-01-12:00:00" title="Weekly Property Guide" url="http://thehomepage.com.au/property-guide.pdf" format="pdf" />
+  </objects>
 
-		<images>
-			<img id="m" modTime="2014-01-01-12:30:00" url="http://thehomepage.com.au/image1.jpg" format="jpg" />
-		</images>
-	</agency>
+  <images>
+   <img id="m" modTime="2014-01-01-12:30:00" url="http://thehomepage.com.au/image1.jpg" format="jpg" />
+  </images>
+ </agency>
 
-	<!--
-		 Remove an Agency
-		 i.e they have stopped trading, they are no longer a client of your service,
-		 or you would like them removed. We may contact the agency to determine
-		 the course of action for their existing listings
-	 -->
-	<agency status="withdrawn" modTime="2014-01-01-12:30:00">
-		<agentID>9999</agentID>
-	</agency>
+ <!--
+   Remove an Agency
+   i.e they have stopped trading, they are no longer a client of your service,
+   or you would like them removed. We may contact the agency to determine
+   the course of action for their existing listings
+  -->
+ <agency status="withdrawn" modTime="2014-01-01-12:30:00">
+  <agentID>9999</agentID>
+ </agency>
 
-	<!--
-		 Agent Data
-		 This tag is separate to the listingAgent tag and is used to provide
-		 details of a particular agent. This is then linked via the id in the
-		 listingAgent tag. This tag has not been named listingAgent to ensure
-		 there is no confusion with the existing listingAgent tag
-	 -->
+ <!--
+   Agent Data
+   This tag is separate to the listingAgent tag and is used to provide
+   details of a particular agent. This is then linked via the id in the
+   listingAgent tag. This tag has not been named listingAgent to ensure
+   there is no confusion with the existing listingAgent tag
+  -->
 
-	<agent status="current" modTime="2014-01-01-12:30:00">
-		<!-- The ID that will be used to refer to this agent at the listing level
-			 for a property listing it will be nested under the listingAgent tag, eg:
-				 <listingAgent>
-					<id>12345</id>
-				 </listingAgent>
+ <agent status="current" modTime="2014-01-01-12:30:00">
+  <!-- The ID that will be used to refer to this agent at the listing level
+    for a property listing it will be nested under the listingAgent tag, eg:
+     <listingAgent>
+     <id>12345</id>
+     </listingAgent>
 
-			 This field has not been named agentID to ensure there is no confusion
-			 with the existing agentID tag
-		-->
-		<id>12345</id>
+    This field has not been named agentID to ensure there is no confusion
+    with the existing agentID tag
+  -->
+  <id>12345</id>
 
-		<!--
-			 The agentID attribute is the XML ID for the agency (listed in the
-			 <agency> tag and the <agentID> tag in property XML
+  <!--
+    The agentID attribute is the XML ID for the agency (listed in the
+    <agency> tag and the <agentID> tag in property XML
 
-			 The display attribute indicates whether an agency should be
-			 displayed under the given agency. This allows an agent to list
-			 property under a particular agency (usually another branch) that
-			 they are not wanting to be displayed in this agency's list of
-			 agents.
+    The display attribute indicates whether an agency should be
+    displayed under the given agency. This allows an agent to list
+    property under a particular agency (usually another branch) that
+    they are not wanting to be displayed in this agency's list of
+    agents.
 
-			The order attribute allows the ability to order agents by their importance
-			within the company, eg, Principals may wish to be first in the list
-			of agents for an one agency but not another.
+   The order attribute allows the ability to order agents by their importance
+   within the company, eg, Principals may wish to be first in the list
+   of agents for an one agency but not another.
 
-			The position is the agent's position within the company, e.g. Are they
-			a director, sales executive, etc.
+   The position is the agent's position within the company, e.g. Are they
+   a director, sales executive, etc.
 
-			The department is the part of the agency the agent works in, e.g,
-			Sales, Leasing Department, etc.
+   The department is the part of the agency the agent works in, e.g,
+   Sales, Leasing Department, etc.
 
-			These values and attribues are optional, except for the agentID
-		-->
-		<agentAgency agentID="9999" status="current" display="yes" primary="yes">
-			<order>1</order>
-			<position>Director</position>
-			<department>Sales</department>
-		</agentAgency>
-		<agentAgency agentID="9998" status="current" display="yes" primary="no">
-			<order>99</order>
-			<position>Director</position>
-			<department>Sales</department>
-		</agentAgency>
+   These values and attribues are optional, except for the agentID and status
+  -->
+  <agentAgency agentID="9999" status="current" display="yes" primary="yes">
+   <order>1</order>
+   <position>Director</position>
+   <department>Sales</department>
+  </agentAgency>
+  <agentAgency agentID="9998" status="current" display="yes" primary="no">
+   <order>99</order>
+   <position>Director</position>
+   <department>Sales</department>
+  </agentAgency>
 
 
-		<name>Mr. Primary Lister</name>
+  <name>Mr. Primary Lister</name>
 
-		<telephone type="BH">05 1234 5678</telephone>
-		<telephone type="AH">05 1234 5679</telephone>
-		<telephone type="Mobile">0409123456</telephone>
+  <telephone type="BH">05 1234 5678</telephone>
+  <telephone type="AH">05 1234 5679</telephone>
+  <telephone type="Mobile">0409123456</telephone>
 
-		<email>pl@somedomain.com.au</email>
+  <email>pl@somedomain.com.au</email>
 
-		<twitterURL>http://twitter.com/SomeUser</twitterURL>
+  <twitterURL>http://twitter.com/SomeUser</twitterURL>
 
-		<facebookURL>http://www.facebook.com/pages/Some_Domain_Facebook_Page</facebookURL>
+  <facebookURL>http://www.facebook.com/pages/Some_Domain_Facebook_Page</facebookURL>
 
-		<linkedInURL>http://au.linkedin.com/pub/primary-lister/37/599/39a</linkedInURL>
+  <linkedInURL>http://au.linkedin.com/pub/primary-lister/37/599/39a</linkedInURL>
 
-		<googleURL>http://plus.google.com/+SomeUser</googleURL>
+  <googleURL>http://plus.google.com/+SomeUser</googleURL>
 
-		<url>http://someagency.com.au/SomeAgent</url>
+  <url>http://someagency.com.au/SomeAgent</url>
 
-		<videoLink href="http://youtube.com/watch?v=1234" />
+  <videoLink href="http://youtube.com/watch?v=1234" />
 
-		<!-- The position of the agent within the company -->
-		<agentPosition>Director</agentPosition>
+  <description>About this agent</description>
 
-		<!-- The department the agent works in, eg, sales, property management, etc -->
-		<agentDepartment>Sales</agentDepartment>
+  <objects>
+   <!-- Documents the agent would like linked, eg, weekly property guide -->
+   <document id="1" modTime="2007-01-01-12:00:00" title="Weekly Property Guide" url="http://thehomepage.com.au/property-guide.pdf" format="pdf" />
+  </objects>
 
-		<!-- The ability to order profiles by the importance within the company, eg,
-			 Principals may wish to be first in the list of agents for an agency -->
-		<agentOrder>1</agentOrder>
+  <images>
+   <!-- Images in a 5:6 ratio (e.g. 150px x 180px), generally this will be the agent's profile picture -->
+   <img id="m" modTime="2014-01-01-12:30:00" url="http://www.thehomepage.com.au/agent-image.jpg" format="jpg"/>
+  </images>
+ </agent>
 
-		<description>About this agent</description>
+ <!--
+   Remove an Agent
+   i.e they have stopped working at the agency, are no longer a real estate
+   agent, etc.
 
-		<objects>
-			<!-- Documents the agent would like linked, eg, weekly property guide -->
-			<document id="1" modTime="2007-01-01-12:00:00" title="Weekly Property Guide" url="http://thehomepage.com.au/property-guide.pdf" format="pdf" />
-		</objects>
-
-		<images>
-			<img id="m" modTime="2014-01-01-12:30:00" url="http://www.thehomepage.com.au/agent-image.jpg" format="jpg"/>
-		</images>
-	</agent>
-
-	<!--
-		 Remove an Agent
-		 i.e they have stopped working at the agency, are no longer a real estate
-		 agent, etc.
-
-		 The agent will be removed from all property for which they are listed on
-	 -->
-	<agent status="withdrawn" modTime="2014-01-01-12:30:00">
-		<id>12345</id>
-	</agent>
+   The agent will be removed from all property for which they are listed on
+  -->
+ <agent status="withdrawn" modTime="2014-01-01-12:30:00">
+  <id>12345</id>
+ </agent>
 
 </propertyList>
